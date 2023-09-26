@@ -18,4 +18,9 @@ public class DemoApplication {
         return "Nikinho + Jhonatas + Gois + Ana + Beatriz + Helena = Germinare Tech" ;
     }
 
+	@GetMapping("/ana")
+    public String testando(){
+        return "amo one direction" ;
+    }
+
 }
